@@ -1,15 +1,15 @@
-数学建模常用网址
+##### 数学建模常用网址
 -[美国MCM](http://www.comap.com)
 -[中国数学建模网](http://www.shumo.com/home/)
 
-美赛题访问:
+##### 美赛题访问
 http://www.comap.com/undergraduate/contests/mcm
 http://www.comap-math.com/mcm/index.html
 http://www.mathismore.net/mcm/index.html
 http://www.mathportals.com/mcm/index.html
 http://www.immchallenge.org/mcm/index.html
 
-资源网站：
+##### 资源网站
 -[校苑数模]（http://www.mathor.com/）
 -[数学中国论坛](http://www.madio.net/forum.php)
 -[matlab-python](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf）
