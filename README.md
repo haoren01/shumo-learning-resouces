@@ -1,4 +1,4 @@
-##### [数学建模常用网址](shumo-learning-resouces/algorithm.md)
+##### [数学建模常用网址](haoren01/shumo-learning-resouces/algorithm.md)
 
 - [美国MCM](http://www.comap.com)
 - [中国数学建模网](http://www.shumo.com/home/)
