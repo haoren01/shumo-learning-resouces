@@ -45,6 +45,7 @@
 - [在线工具](https://tool.lu/)
 - [北邮人论坛](http://bbs.cloud.icybee.cn/default)
 - [知乎网站](https://www.zhihu.com/question/19644160)(PPT模板下载资源）
+- [设计师网址导航](https://hao.uisdc.com/)(大量高质量设计素材）
 
 美国机构网站：
 [美国政府](http://www.state.gov/)
