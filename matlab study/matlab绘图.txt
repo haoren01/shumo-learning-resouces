@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%plot与fplot函数
+>> x=[1.5,2,1,1.5];
+>> plot(x)
+
+>> y=[2.5,3.5,4.5,1];
+>> cx=x+y*i;
+>> plot(cx)
+
+>> x=linspace(0,2*pi,100);
+>> y=[sin(x);sin(2*x);sin(0.5*x)];
+>> plot(x,y)
+
+>> t1=linspace(0,2*pi,100);
+>> t2=linspace(0,2*pi,50);
+>> t3=linspace(0,2*pi,10);
+>> plot(t1,sin(t1),t2,sin(t2)+1,t3,sin(t3)+2)
+
+
+>> x=(0:pi/50:2*pi)';
+>> y1=2*exp(-0.5*x)*[1,-1];
+>> x1=0:0.5:6;
+>> y2=2*exp(-0.5*x).*(sin(2*pi*x));
+>> y3=2*exp(-0.5*x1).*(sin(2*pi*x1));
+>> plot(x,y1,'k:',x,y2,'b--',x1,y3,'rp')
+
+>> y=sin(1./x);
+>> plot(x,y)
+>> fplot(@(x) sin(1./x),[0,0.2],'b')
+
+>> fplot(@(t) t.*sint,@(t) t.*cos(t),[0,10*pi],'r')
+
+%%%%%%%%%%%%%%%%%%%%%%%%绘制图形的辅助操作
+>> x=-2*pi:0.05:2*pi;
+>> y=sin(x);
+>> plot(x,y)
+>> title('y=sin(x)')%加标题
+>> title('y=cos{\omega}t')%使用latex语言
+>> title('y=cos{\omega}t','Color','r')%属性加属性值
+
+>> xlabel('-2\leq x\leq 2')%标注坐标
+
+>> text(-2*pi,0,'-2{\pi}') %图形中标注
+>> text(3,0,'\leftarrow sin(x)')
+>> gtext('sin(x)')
+
+>> x=linspace(0,2*pi,100);
+>> plot(x,[sin(x);sin(2*x);sin(3*x)])
+>> legend('sin(x)','sin(2*x)','sin(3*x)')%图例标注
+
+>> x=[0,1,1,0,0];
+>> y=[0,0,1,1,0];
+>> plot(x,y)
+>> axis([-0.1,1.1,-0.1,1.1])%axis对坐标的控制
+>> axis equal;
+>> axis off;
+
+>> grid on;%显示网格
+
+>> box off;%取消坐标边框
+
+>> t=linspace(0,2*pi,100);
+>> x=sin(t);
+>> y=cos(t);
+>> plot(x,y,'b')
+>> hold on;    %保持原图形
+>> plot(2*x,2*y,'r--')
+>> grid on
+>> axis([-2.2,2.2,-2.2,2.2]);
+>> axis equal
+
+>> subplot(2,2,1)% 分区
+>> x=linspace(0,2*pi,60);
+>> y=sin(x);
+>> plot(x,y);
+>> title(‘sin(x)');
+ title(‘sin(x)');
+>> title('sin(x)');
+>> axis([0,2*pi,-1,1]);
+
+%%%%%%%%%%%%%%%%%%%%%%%其他形式的二维曲线
+>> x=0:0.1:10;
+>> y=1./x;
+>> subplot(2,2,1);
+>> plot(x,y);
+>> subplot(2,2,2);
+>> semilogx(x,y) %对数坐标图
+>> title('semilog(x,y)');grid on
+>> subplot(2,2,3);
+>> semilogy(x,y);
+>> title('semilogy(x,y)');grid on
+>> subplot(2,2,4);
+>> loglog(x,y)
+>> title('loglog(x,y)');grid on
+
+
+>> t=0:pi/100:2*pi;
+>> r=1-sin(t);
+>> subplot(1,2,1);
+>> polar(t,r)  %极坐标
+>> subplot(1,2,2)
+>> t1=t-pi/2;
+>> r1=1-sin(t1);
+>> polar(t1,r1)
+
+>> y=[1,2,3,4,5;1,2,1,2,1;5,4,3,2,1];
+>> subplot(1,2,1)
+>> bar(y)
+>> subplot(1,2,2)
+>> bar(y,'stacked')%条形图 叠状
+
+>> x=[2015,2016,2017];
+>> y=[68,80,115,98,102;75,88,102,99,110;81,86,125,105,115];
+>> bar(x,y)
+>> title('Group')
+
+
+>> y=randn(500,1);
+>> subplot(2,1,1);
+>> hist(y)  %直方图
+>> title('高斯分布直方图');
+>> subplot(2,1,2);
+>> x=-3:0.2:3;
+>> hist(y,x);
+>> title('指定区间中心点的直方图')
+
+>> y=randn(500,1);
+>> theta=y*pi;
+>> rose(theta)%在极坐标下的直方图
+>> title('在极坐标下的直方图')
+
+>> pie(score,ex);
+>> ex=[0,0,0,0,1];
+>> pie(score,ex); %扇形
+>> legend('优秀','良好','中等','及格','不及格','location','eastoutside')
+
+>> t=0:pi/50:2*pi;
+>> x=16*sin(t).^3;
+>> y=13*cos(t)-5*cos(2*t)-2*cos(3*t)-cos(4*t);
+>> scatter(x,y,'rd','filled')%散点图
+
+>> A=[4,5];B=[10,0];C=A+B;
+>> hold on
+>> quiver(0,0,A(1),A(2));%矢量图
+>> quiver(0,0,B(1),B(2));
+>> quiver(0,0,C(1),C(2));
+
+%%%%%%%%%%%%%%%%%%%绘制三维曲线
+>> x=[1,2,3,4,5];
+>> y=[1,2,3,4,5];z=[1,2,3,4,5];
+>> plot3(x,y,z)
+>> grid on
+>> axis([0,3,1,3,0,2])
+
+>> t=linspace(0,10*pi,200);
+>> x=sin(t)+t.*cos(t);
+>> y=cos(t)-t.*sin(t);
+>> z=t;
+>> subplot(1,2,1);
+>> plot3(x,y,z)%绘制三维曲线
+>> grid on
+>> subplot(1,2,2)
+>> plot3(x(1:4:200),y(1:4:200),z(1:4:200))
+
+>> t=0:0.01:2*pi;
+>> t=t';
+>> x=[t,t,t,t,t];
+>> y=[sin(t),sin(t)+1,sin(t)+2,sin(t)+3,sin(t)+4];
+>> z=[t,t,t,t,t];
+>> plot3(x,y,z);%用矩阵绘制多条曲线
+%%%或
+>> t=0:0.01:2*pi;
+>> x=t;
+>> y=[sin(t);sin(t)+1;sin(t)+2;sin(t)+3;sin(t)+4];
+>> z=t;
+>> plot3(x,y,z);
+
+>> t1=0:0.01:1.5*pi;
+>> t2=0:0.01:2*pi;
+>> t3=0:0.01:3*pi;
+>> plot3(t1,sin(t1),t1,t2,sin(t2)+1,t2,t3,sin(t3)+2,t3)%绘制不用长度的三维曲线
+
+>> x=@(t) exp(-t/10).*sin(5*t);
+>> y=@(t) exp(-t/10).*cos(5*t);
+>> z=@(t) t;
+>> fplot3(x,y,z,[-12,12])%fplot函数调用格式
+
+
+
+

@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%1.顺序结构程序
+
+>>  A=input('请输入A的值:');%输入
+请输入A的值:65188
+
+>> disp(A)%输出
+       65188
+
+>> pause(3)%暂停
+
+%%%%%%%%%%%%%%%%%2.选择结构
+
+>> x=input('请输入x的值：');
+请输入x的值：32
+>> if rem(x,2)==1
+y=sqrt(x);
+else 
+y=x^(1/3);
+end
+>> y
+
+y =
+
+    3.1748
+
+ c=input('请输入一个单词：','s');
+请输入一个单词：h
+>> switch c(1)
+case{'A','E','I','O','U','a','e','i','o','u'}
+disp([c,'以元音字母开头']);
+otherwise
+disp([c,'以辅音字母开头']);
+end
+h以辅音字母开头
+
+
+%%%%%%%%%%%%%%%%%%%3.循环结构
+
+>> a=0;
+>> b=1;
+>> n=input('n=?')%积分法求pai
+n=?500
+>> h=(b-a)/n;
+>> x=a:h:b;
+>> f=sqrt(1-x.*x);
+>> s=[];
+>> for k=1:n
+s1=(f(k)+f(k+1))*h/2;
+s=[s,s1];
+end
+>> pai=4*sum(s)
+
+pai =
+
+    3.1415
+
+>> r=0;
+>> n=input('n=?');%蒙特卡罗法求pai
+n=?100000
+>> for k=1:n
+x=rand(1);
+y=rand(1);
+if x*x+y*y<=1
+r=r+1;
+end
+end
+>> pai=r/n*4
+
+pai =
+
+    3.1384
+
+
+>> x=input('Enter a number (end in 0):');%while循环
+Enter a number (end in 0):2
+>> while x~=0
+msum=msum+x;
+n=n+1;
+x=input('Enter a number (end in 0):');
+end
+Enter a number (end in 0):4
+Enter a number (end in 0):5
+Enter a number (end in 0):6
+Enter a number (end in 0):8
+Enter a number (end in 0):4
+Enter a number (end in 0):54
+Enter a number (end in 0):2545
+Enter a number (end in 0):0
+>> if n>0
+msum
+meam=msum/n
+end
+
+msum =
+
+        2630
+
+
+meam =
+
+  328.7500
+
+
+>> for n=100:200%comtinue与break
+if rem(n,21)~=0
+continue
+end
+n
+break
+end
+
+n =
+
+   105
+
+
+
+>> m=input('m=?');%循环的嵌套
+m=?100
+>> p=1:m;
+>> p(1)=0;
+>> for i=2:sqrt(m)
+for j=2*i:i:m
+p(j)=0;
+end
+end
+>> n=find(p~=0);
+>> p(n)
+
+%%%%%%%%%%%%%%%%%%4.函数文件的定义与调用
+function [s,p] = fcircle(r)%函数文件中函数定义
+s=pi*r*r;
+p=2*pi*r;
+end
+
+>> [s,p]=fcircle(10)
+
+s =
+
+  314.1593
+p =
+
+   62.8319
+
+>> f=@(x,y) x^2+y^2;%匿名函数
+>> f(3,4)
+
+ans =
+
+    25
+
+%%%%%%%%%%%%%%%%%%%%5.函数的递归
+function f=fact(n)
+if n<=1
+    f=1;
+else
+    f=fact(n-1)*n;%直接递归
+end
+
+>> a=fact(15);
+>> disp(15)
+    15
+
+%%%%%%%%%%%%%%%%%%%6.函数参数与变量的作用域
+
+function fout= test(a,b,c)
+if nargin==1  %设置输入变量个数
+    fout=a;
+elseif nargin==2
+    fout=a+b;
+elseif nargin==3
+    fout=(a*b*c)/2;
+end
+>> fout=test(2)
+
+fout =
+
+     2
+
+>> fout=test(2,3,5)
+
+fout =
+
+    15
+
+function f =Wad(x,y)
+global ALPHA BETA %全局变量
+f=ALPHA*x+BETA*y;
+end
+
+>> global ALPHA BETA
+>> ALPHA=1;
+>> BETA=2;
+>>  f=Wad(1,2)
+
+f =
+
+     5
+
