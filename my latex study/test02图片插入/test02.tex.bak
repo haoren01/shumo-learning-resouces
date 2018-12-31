@@ -1,0 +1,29 @@
+\documentclass{report}
+\usepackage{amsmath}
+%\usepackage{mathrsfs}
+\usepackage{graphicx}%插入图片
+
+\begin{document}
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{tu1.jpg}\\
+  \caption{this is my first figure}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{tu2.jpg}\\
+  \caption{this is my first figure}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.5]{tu3.png}\\
+  \caption{this is my first figure}
+\end{figure}
+
+
+
+
+\end{document}

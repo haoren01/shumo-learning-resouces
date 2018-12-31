@@ -1,0 +1,32 @@
+\documentclass{article}%[twocolumn]{article}
+\usepackage{amsmath} 
+\usepackage{multicol}%分栏宏包
+\usepackage{graphicx}
+\usepackage{balance}%平衡分栏
+\begin{document} 
+
+\section{Introduction}%参考文献基本
+
+%Partl~\cite{pa} has proposed that \ldots
+
+
+\begin{thebibliography}{99}
+\bibitem[3]{pa} H.~Partl: \emph{German \TeX},TUGboat Volume~9, Issue~1 (1988)
+\end{thebibliography}
+
+
+\section{sty2.1}%分栏:全文分栏[twocolumn]  分栏环境
+
+
+%\balance
+\begin{multicols}{2}
+\includegraphics[scale=1]{tu1.jpg}
+\includegraphics[scale=1]{tu1.jpg}
+\end{multicols}
+
+
+
+\end{document}
+
+
+

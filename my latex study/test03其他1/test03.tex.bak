@@ -1,0 +1,119 @@
+\documentclass{article}
+\usepackage{amsmath}
+%\usepackage{ulem}%uline命令宏包
+\begin{document}
+
+\section{sty1.1}%连字
+it's difficult to find\ldots.\\
+it's difficult to f{}ind\ldots.
+
+
+\section{sty2.1}%标点符号(引号，连字符和破折号,省略号，波浪号）
+``Please press the`x' key.''\\
+
+X-rated\\13--67\\yes---or no?\\
+
+one,two,three,\ldots one hundred.\\
+
+a\~{}z \qquad a$\sim$z
+
+
+\section{sty3.1}%文字强调
+An example of \underline{some long and underlined words.}
+%An example of \unline{some long and underlined\\ words.}
+
+Some \emph{emphasized} words, including double-emphasized words, are shown here.
+
+
+\section{sty4.1}%断词
+I think this is: supercalifragilisticexpialidocious.\\
+I think this is: su\-per\-cal\-ifrag\-ilistic\-ex\-pi\-alidocious.
+
+
+\section{sty5.1}%引用
+\begin{table}[h]
+  \centering
+\begin{tabular}{ccccc}
+table & center & height & weight & name\\
+1 & wang & 52 & 170 & jian\\
+2 & kuang & 62 & 172 & qian\\
+3 & li & 43 & 173 & guan\\
+4 & zhang & 78 & 174 & yuan\\
+\end{tabular}
+  \caption{my first table }\label{tab1}
+\end{table}
+
+\ref{tab1}
+\pageref{tab1}
+
+
+\section{sty6.1}%脚注
+\begin{tabular}{l}
+\hline
+A reference to this subsection looks like\footnotemark\\
+\hline
+\end{tabular}
+
+\footnotetext{this is my article}
+
+
+\section{sty7.1}文本对齐方式
+\begin{center}
+  Centered text using a center environment.
+\end{center}
+
+\begin{flushleft}
+  Left-aligned text using a flushleft environment.
+\end{flushleft}
+
+\begin{flushright}
+  Right-aligned text using a flushright environment.
+\end{flushright}
+
+\centering
+ Centered text using a center environment.\\
+\raggedright
+Left-aligned text using a flushleft environment.\\
+\raggedleft
+Right-aligned text paragraph.\\
+
+\raggedright
+\section{sty8.1}%引用环境
+Francis Bacon says:
+\begin{quote}
+  Knowledge is power.
+\end{quote}
+
+\begin{quotation}
+Beauty is truth’s smile when she beholds her own face in a perfect mirror.
+\end{quotation}
+
+
+\section{sty9.1}%代码环境
+\begin{verbatim}
+  #include <iostream>
+int main()
+{
+std::cout << "Hello, world!"
+<< std::endl;
+return 0;
+}
+\end{verbatim}
+
+\verb+(a || b)+
+
+
+\section{sty10.1}
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

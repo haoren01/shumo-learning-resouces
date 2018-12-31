@@ -1,0 +1,108 @@
+%表格
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{array}%辅助格式<,>宏包
+\usepackage{multirow}%合并列宏包
+\begin{document}
+  
+\section{sty1.1} % 【t】，【b】混排
+
+\begin{tabular}{|c|}
+center-\\ aligned \\
+\end{tabular}
+\begin{tabular}[t]{|c|}
+top-\\ aligned \\
+\end{tabular}
+\begin{tabular}[b]{|c|}
+bottom-\\ aligned\\
+\end{tabular} tabulars.
+  
+  
+\section{sty2.1}%c,l,r,p对齐以及@{}  辅助格式<,>  
+\begin{tabular}{@{}l@{:}cr|p{9em}@{}}
+\hline
+ 1 & 5 & right& par box with fixed width\\
+21 & 11 & R & P \\
+\hline
+\end{tabular}\\
+
+
+\begin{tabular}{>{\bfseries}r<{*}l|>{\centering\arraybackslash}p{9em}}
+\hline
+italic & normal&par box with fixed width\\
+column & column& P \\
+\hline
+\end{tabular}
+
+
+\section{sty3.1}%合并单元格
+\begin{tabular}{|c|c|c|}
+\hline
+1 & 2 & Center \\ 
+\hline
+\multicolumn{2}{|c|}3 &Right \\ 
+\hline
+4 & \multicolumn{2}{c|}C\\ 
+\hline
+\end{tabular}\\
+
+\begin{tabular}{ccc}
+  \hline
+  \multirow{2}{*}{Item}
+  &\multicolumn{2}{c}{Value}\\
+  \cline{2-3}
+  &First&Second\\
+  \hline
+  A & 1 & 2 \\
+  \hline
+\end{tabular}\\
+
+\begin{tabular}{|c|c|c|c|}
+  \hline
+  a &\multicolumn{2}{c|}b &c \\
+  \hline
+  \multirow{2}{*}c
+   &e &f&
+   \multirow{2}{*}c\\
+   \cline{2-3}
+   &e &f&\\
+  \hline
+  a &\multicolumn{2}{c|}b &c \\
+  \hline
+\end{tabular}
+
+
+\section{sty4.1}%嵌套表格
+\begin{tabular}{|c|c|c|}
+  \hline
+  a & b& c \\ \hline
+  a & 
+  \multicolumn{1}{@{}c@{}|}
+  {\begin{tabular}{c|c}
+   e& f\\
+  \hline
+   e &f\\
+  \end{tabular}}
+  
+  &c \\ \hline
+  a & b & c \\
+  \hline
+\end{tabular}
+
+
+\section{sty5.1}%行距控制
+\begin{tabular}{c}
+\hline
+Head lines \\[6pt]
+tabular lines \\
+tabular lines \\ 
+\hline
+\end{tabular}
+
+
+
+
+
+
+
+\end{document}

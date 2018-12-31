@@ -1,0 +1,167 @@
+\documentclass[twocolumn]{report}
+\usepackage{amsmath}
+\usepackage{enumerate}%列项
+\usepackage{longtable}%长表格
+\usepackage{mathrsfs}
+\usepackage{arydshln}%虚线
+\newcommand {\fc}{\frac}%宏定义
+\begin{document}
+
+\title{meisai}
+\author{kuangjian}
+\date{}
+\maketitle
+
+\tableofcontents
+\newpage
+\setcounter{page}{1}
+
+
+\section{ingt}
+\subsection{saf01}%列项
+
+\begin{enumerate}[\bfseries A.]
+  \item this is item 1.
+  \begin{enumerate}[\sffamily a.]
+    \item this is item 1.
+    \item this is item 2.
+  \end{enumerate}
+  \item this is item 2.
+  \item this is item 3.
+\end{enumerate}
+
+\begin{enumerate}[\bfseries A.]
+\setcounter{enumi}{4}
+  \item this is item 1.
+  \begin{enumerate}[\sffamily a.]
+    \item this is item 1.
+    \item this is item 2.
+  \end{enumerate}
+  \item this is item 2.
+  \item this is item 3.
+\end{enumerate}
+
+\subsection{saf02}%表格及其排序
+
+\begin{tabular}{|c|l|r|}
+\hline
+36&32&364\\
+\hline
+254&598&64\\
+\hline
+\end{tabular}
+
+\newpage
+\begin{table}
+  \centering
+  \begin{tabular}{ccccc}
+\hline
+table & name & number & height & age\\
+\hline
+\multicolumn{2}{c} {aljk kuang} & 534 & 170 & 20\\
+asic & li & 6 & 171 & 20\\
+\cline{2-4}
+sah & wang & 754 & 172 & 21\\
+sbck & zhang & 468 & 173 & 19\\
+\hline
+\end{tabular}
+  \caption{this is my second table}
+\end{table}
+
+
+\subsection{saf03}%行内公式，行间公式，特殊符号的插入，数学字体，从mathtype粘贴，编号,%subequations,newcommad,boxed,mathop
+My home is in the northeast, where there are soybeans and sorghum My home is in the northeast, where there are soybeans and sorghum.My home is in the northeast,$\frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}} $where there are soybeans and sorghum.My home is in the northeast, where there are soybeans and sorghum
+
+$$\sum\prod \widetilde{abcd} $$
+
+numberwithin{equation}{section}
+
+\begin{equation}
+  \fc{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
+
+\begin{subequations}
+ \begin{equation}\boxed{
+  \frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}}
+\end{equation}
+\begin{equation}
+  \frac{{ - b \pm \sqrt {{b^2} - 4ac} }}{{2a}}
+\end{equation}
+\end{subequations}
+
+$$\sum^5_{i=1}i^2$$
+$${\rm abcd}^a_b$$
+$$\mathop{{\rm abcd}}^a_b$$
+
+
+\subsection{saf04}%/left & /right 矩阵的输入（bmatrix,Bmatrix,vmatrix,Vmatrix,pmatrix,array),分块矩阵，%hdashline,;[4pt/2pt]
+
+\[\mathop {\lim }\limits_{x \to \infty } {\left( {1{\rm{ + }}\frac{1}{{\rm{n}}}} \right)^{\rm{n}}}{\rm{ = e}}\]
+\[\frac{{\partial x}}{{\partial y}}\left| {_{y2 = 2}^{y1 = 1}} \right.\]
+$$\left(\begin{array}{crl}
+  25&56&964\\
+  625&545&52\\
+  56&51&551
+\end{array}\right)$$
+
+$$\begin{bmatrix}
+  25&56&964\\
+  625&545&52\\
+  56&51&551
+\end{bmatrix}$$
+
+$$\left[\begin{array}{c|c;{4pt/2pt}c}
+  25&56&964\\
+  \hline
+  625&545&52\\
+  \hdashline[2pt/4pt]
+  56&51&551
+\end{array}\right]$$
+
+\subsection{saf05}%公式的对齐（split,align,gathered,eqnarray),nonumber,cases环境
+
+\[{\left( {{\rm{a}} + b} \right)^4} = \left( {{a^2} + 2ab + {b^2}} \right)\left( {{a^2} + 2ab + {b^2}} \right) = {a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^3} + {b^4}\]
+
+\begin{equation}
+  \begin{split}
+  {\left( {{\rm{a}} + b} \right)^4} &= \left( {{a^2} + 2ab + {b^2}} \right)\left( {{a^2} + 2ab + {b^2}} \right)\\
+  &={a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^3} + {b^4}
+  \end{split}
+\end{equation}
+
+\begin{align}
+  {\left( {{\rm{a}} + b} \right)^4} &= \left( {{a^2} + 2ab + {b^2}} \right)\left( {{a^2} + 2ab + {b^2}} \right)\nonumber\\
+  &={a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^3} + {b^4}
+\end{align}
+
+\begin{equation}
+\begin{gathered}
+  z={\left( {{\rm{a}} + b} \right)^4}= \left( {{a^2} + 2ab + {b^2}} \right)\left( {{a^2} + 2ab + {b^2}} \right)\\
+  z={a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^3} + {b^4}
+\end{gathered}
+\end{equation}
+
+\begin{eqnarray}
+  {\left( {{\rm{a}} + b} \right)^4} &=& \left( {{a^2} + 2ab + {b^2}} \right)\left( {{a^2} + 2ab + {b^2}} \right)\nonumber\\
+  &=&{a^4} + 4{a^3}b + 6{a^2}{b^2} + 4a{b^3} + {b^4}
+\end{eqnarray}
+
+Indicate Function:
+\[I_A(a)=\begin{cases}
+  1&a\in A\\
+  0&a\not\in A
+  \end{cases}\]
+
+\section{ongds}
+
+hello world! hello world! hello world!
+
+\textbf{\emph{hello world! hello world! hello world!}}
+
+\emph{$$b^2-4ac=\triangle$$}
+
+\%,\$,\{……\},\&,\#,\_,\^{},\~{},\textbackslash
+
+
+
+\end{document}

@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{amsmath}
+%\usepackage{ulem}%uline命令宏包
+\begin{document}
+
+\section{sty1.1}%连字
+it's difficult to find\ldots.\\
+it's difficult to f{}ind\ldots.
+
+
+\section{sty2.1}%标点符号(引号，连字符和破折号,省略号，波浪号）
+``Please press the`x' key.''\\
+
+X-rated\\13--67\\yes---or no?\\
+
+one,two,three,\ldots one hundred.\\
+
+a\~{}z \qquad a$\sim$z
+
+
+\section{sty3.1}%文字强调
+An example of \underline{some long and underlined words.}
+%An example of \unline{some long and underlined\\ words.}
+
+Some \emph{emphasized} words, including double-emphasized words, are shown here.
+
+
+\section{sty4.1}%断词
+I think this is: supercalifragilisticexpialidocious.\\
+I think this is: su\-per\-cal\-ifrag\-ilistic\-ex\-pi\-alidocious.
+
+
+\section{sty4.1}
+
+
+
+\end{document}

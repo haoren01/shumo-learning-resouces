@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{lipsum}
+\usepackage{indentfirst}%令第一段缩进
+\begin{document}
+
+
+\section{sty1.1}%公式中的间距（\!、\:、\;以及\quad 、\qquad，\,，{还可用于文本}）
+
+  \[
+\int_a^b f(x)\mathrm{d}x
+\qquad
+\int_a^b f(x)\,\mathrm{d}x
+\]
+
+  $$\int\int\int$$
+  $$\int\,\int\,\int$$
+  $$\int\:\int\:\int$$
+  $$\int\;\int\;\int$$
+  $$\int\!\int\!\int$$
+  $$\int\quad\int\quad\int$$
+  $$\int\qquad\int\qquad\int$$
+
+
+
+\section{sty2.1}%段落缩进  \parskip段落垂直间距
+\lipsum[1]
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+\setlength{\leftskip}{20pt}\setlength{\rightskip}{20pt}
+\lipsum[1]
+
+\noindent
+\lipsum[2]
+
+\setlength{\parindent}{2em}
+\lipsum[2]
+
+
+\section{sty3.1}%行文水平间距\hspace  垂直间距
+x\hspace{1em}y\\
+x\quad y\\
+x\hspace{\stretch{1}}y\\
+x\hspace{\fill}y
+x\hspace{1.5cm}y
+
+Use command \verb|\vspace| to
+add \vspace{12pt} some spaces
+between lines in a paragraph.
+
+
+
+\end{document}
