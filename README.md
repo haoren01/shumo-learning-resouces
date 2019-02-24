@@ -27,6 +27,7 @@
 >- [DOAJ](http://www.doaj.org)　　　
 >- [Oaister](http://www.oclc.org/oaister)　
 >- [arXiv](http://cn.arxiv.org)　
+>- [arxiv-sanity](http://www.arxiv-sanity.com/)
 
 ##### 文档翻译
 
