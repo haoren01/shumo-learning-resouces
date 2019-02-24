@@ -54,8 +54,9 @@
 [美国劳工统计局](http://stats.bls.gov/)
 [美国国家农业统计署](http://www.usda.gov/nass/)
 [气象方面的](www.ncdc.noaa.gov)
-[美国统计局](http://www.stat-usa.gov/)，www.usgs.gov
->>http://www.data360.org/index.aspx
+[美国统计局](http://www.stat-usa.gov/)
+[美国地质调查局](www.usgs.gov)
+[一个关于美国的数据库](http://www.data360.org/index.aspx)
 [美国中央情报局](http://www.cia.gov/)
 [美国能源信息管理局](www.eia.doe.gov)
 [美国无线通讯与互联网协会](www.eia.doe.gov)
