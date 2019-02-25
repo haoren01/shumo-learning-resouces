@@ -11,7 +11,7 @@
 >[访问4](http://www.mathportals.com/mcm/index.html)
 >[访问5](http://www.immchallenge.org/mcm/index.html)
 
-##### 资源网站
+##### 建模资源网站
 
 >- [校苑数模](http://www.mathor.com/)
 >- [数学中国论坛](http://www.madio.net/forum.php)
@@ -26,8 +26,16 @@
 >- [Google学术](https://scholar.google.com/)
 >- [DOAJ](http://www.doaj.org)　　　
 >- [Oaister](http://www.oclc.org/oaister)　
->- [arXiv](http://cn.arxiv.org)　
->- [arxiv-sanity](http://www.arxiv-sanity.com/)
+>- [arXiv](http://cn.arxiv.org)　—— 物理，数学，计算机
+>- [arxiv-sanity](http://www.arxiv-sanity.com/) —— 学术性的arxiv
+>- [PubMed](https://www.ncbi.nlm.nih.gov/) —— 偏向生物领域
+>- [Open Access Biomedical Image Search Engine](https://openi.nlm.nih.gov/) —— 生物医学图像搜索
+>- [虫部落](http://scholar.chongbuluo.com/) —— 一个数据库集合网站
+
+##### 论文免费下载
+
+>- [iDAta](https://www.cn-ki.net/)
+>- [SCI—hub](http://sci-hub.tw/)
 
 ##### 文档翻译
 
@@ -41,7 +49,6 @@
 >- [HiPPTer](http://www.hippter.com/)（ppt等素材网）
 >- [疯狂音乐](http://music.ifkdy.com/)
 >- [owllook](https://www.owllook.net/)（小说）
->- [虫部落](http://scholar.chongbuluo.com/)（数据大搜索）
 >- [百度云盘万能钥匙](http://ypsuperkey.meek.com.cn/)
 >- [在线工具](https://tool.lu/)
 >- [北邮人论坛](http://bbs.cloud.icybee.cn/default)
@@ -54,13 +61,13 @@
 [美国交通统计局](http://www.bts.gov/)
 [美国劳工统计局](http://stats.bls.gov/)
 [美国国家农业统计署](http://www.usda.gov/nass/)
-[气象方面的](www.ncdc.noaa.gov)
+[美国国家环境信息中心](www.ncdc.noaa.gov)
 [美国统计局](http://www.stat-usa.gov/)
 [美国地质调查局](www.usgs.gov)
-[一个关于美国的数据库](http://www.data360.org/index.aspx)
 [美国中央情报局](http://www.cia.gov/)
 [美国能源信息管理局](www.eia.doe.gov)
 [美国无线通讯与互联网协会](www.eia.doe.gov)
 [联邦通讯委员会](http://fcc.gov/)
 [美国环保局](http://www.epa.gov/)
-[经济分析局](www.bea.gov)
+[美国经济分析局](www.bea.gov)
+[一个关于美国的数据库](http://www.data360.org/index.aspx)
