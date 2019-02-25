@@ -38,6 +38,15 @@
 >- [iDAta](https://www.cn-ki.net/)
 >- [SCI—hub](http://sci-hub.tw/)
 
+##### 免费下载英文科研电子书籍
+
+>- [BookSC](http://booksc.org/)
+>- [booksee](http://en.booksee.org/)
+>- [EBOOKEE](http://ebookee.org/ )
+>- [Library Genesis](http://gen.lib.rus.ec/)
+>- [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
+>- [National Academies Press](http://www.nap.edu/)
+
 ##### 文档翻译
 
 >- [DocTranslator](https://www.onlinedoctranslator.com/)（推荐）	
