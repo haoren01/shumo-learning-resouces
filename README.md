@@ -47,6 +47,17 @@
 >- [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
 >- [National Academies Press](http://www.nap.edu/)
 
+##### 网盘搜索
+>- [西林街网盘搜索](http://www.xilinjie.com/)
+>- [盘多多](http://www.panduoduo.net/)
+>- [云网盘之家](http://wowenda.com/) —— 百度网盘资源搜索
+>- [盘次网盘](https://www.panc.cc/)
+>- [网盘资源网](http://www.0933.me/)
+>- [网盘之家](http://www.wangpanzhijia.net/)
+>- [盘搜搜](http://www.pansoso.com/)
+>- [国外的网盘搜索引擎](http://ww1.hotfilesearch.com/)
+
+
 ##### 文档翻译
 
 >- [DocTranslator](https://www.onlinedoctranslator.com/)（推荐）	
