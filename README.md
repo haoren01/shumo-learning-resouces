@@ -3,7 +3,7 @@
 
 >- [美国MCM](http://www.comap.com)
 >- [中国数学建模网](http://www.shumo.com/home/)
->[访问1](http://www.comap.com/undergraduate/contests/mcm)
+>- 镜像赛题访问 [访问1](http://www.comap.com/undergraduate/contests/mcm)
 >[访问2](http://www.comap-math.com/mcm/index.html)
 >[访问3](http://www.mathismore.net/mcm/index.html)
 >[访问4](http://www.mathportals.com/mcm/index.html)
