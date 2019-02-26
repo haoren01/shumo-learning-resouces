@@ -47,12 +47,6 @@
 >- [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
 >- [National Academies Press](http://www.nap.edu/)
 
-##### 网盘搜索
-
->- [云网盘之家](http://wowenda.com/) —— 百度网盘链接抓取
->- [盘搜搜](http://www.pansoso.com/) —— 百度网盘，新浪微盘搜索
-
-
 ##### 文档翻译
 
 >- [DocTranslator](https://www.onlinedoctranslator.com/)（推荐）	
