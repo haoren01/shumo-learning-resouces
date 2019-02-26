@@ -1,10 +1,8 @@
-##### 数学建模常用网址
+## 数学建模常用网址
+##### 官方网站
 
 >- [美国MCM](http://www.comap.com)
 >- [中国数学建模网](http://www.shumo.com/home/)
-
-##### 美赛题访问
-
 >[访问1](http://www.comap.com/undergraduate/contests/mcm)
 >[访问2](http://www.comap-math.com/mcm/index.html)
 >[访问3](http://www.mathismore.net/mcm/index.html)
@@ -20,7 +18,7 @@
 >- [latex开源小屋](http://www.latexstudio.net/)
 >- [迈思数模](www.maisums.com)
 
-##### 数据库
+##### 学术文献资源库
 
 >- [校图书馆（外网)](http://202.206.17.151:3320)
 >- [Google学术](https://scholar.google.com/)
