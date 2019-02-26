@@ -1,3 +1,5 @@
+> 此页面搜集了个人觉得比较有用不错的，并且不易直接记住的资源网站，方便更好的学习和工作！
+> This page collects resources websites that are useful and not easy to remember directly, so as to facilitate better study and work.
 ## 数学建模常用网址
 ##### 官方网站
 
@@ -82,8 +84,8 @@
 
 ##### 产业数据库
 
->- [战略性新兴产业数据库】(http://emerging.drcnet.com.cn/www/emerging/)
->- [中经网数据库]（http://cyk.cei.cn/aspx/Default.aspx）
+>- [战略性新兴产业数据库](http://emerging.drcnet.com.cn/www/emerging/)
+>- [中经网数据库](http://cyk.cei.cn/aspx/Default.aspx)
 
 
 ## 其他网站采集
