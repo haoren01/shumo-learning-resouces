@@ -93,14 +93,15 @@
 
 ##### PPT模板，高清图片等设计素材
 
->- [知乎网站](https://www.zhihu.com/question/19644160)(PPT模板下载资源）
->- [HiPPTer](http://www.hippter.com/)（ppt等素材网）
->- [设计师网址导航](https://hao.uisdc.com/)(大量高质量设计素材）
+>- [知乎网站](https://www.zhihu.com/question/19644160) —— PPT模板下载资源
+>- [HiPPTer](http://www.hippter.com/) —— ppt等素材网
+>- [设计师网址导航](https://hao.uisdc.com/) —— 大量高质量设计素材
+>- [pixabay](https://pixabay.com/) —— 优质的图片，音效素材
 
 #### 小说，音乐。。。
 
 >- [疯狂音乐](http://music.ifkdy.com/)
->- [owllook](https://www.owllook.net/)（小说）
+>- [owllook](https://www.owllook.net/) —— 小说
 
 #### 神器小应用
 
@@ -110,5 +111,5 @@
 
 >- [在线工具](https://tool.lu/)
 >- [北邮人论坛](http://bbs.cloud.icybee.cn/default)
->- [anywhereanything](http://lackar.com/aa/)（网站合集）
+>- [anywhereanything](http://lackar.com/aa/) —— 网站合集
 
