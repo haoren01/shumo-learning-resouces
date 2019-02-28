@@ -4,7 +4,7 @@
 ## 数学建模常用网址
 ##### 官方网站
 
->- [美国MCM](http://www.comap.com)
+>- [MCM/ICM](http://www.comap.com)
 >- [中国数学建模网](http://www.shumo.com/home/)
 >- 赛题镜像访问 [访问1](http://www.comap.com/undergraduate/contests/mcm)
 >[访问2](http://www.comap-math.com/mcm/index.html)
