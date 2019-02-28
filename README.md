@@ -24,15 +24,21 @@
 ##### 学术文献资源库
 
 >- [校图书馆（外网)](http://202.206.17.151:3320)
->- [Google学术](https://scholar.google.com/)
+>- [Google Scholar](https://scholar.google.com/)
 >- [DOAJ](http://www.doaj.org)　　　
 >- [Oaister](http://www.oclc.org/oaister)　
 >- [arXiv](http://cn.arxiv.org)　—— 物理，数学，计算机
+>- [dblp](http://dblp.uni-trier.de/db/) —— 计算机
 >- [arxiv-sanity](http://www.arxiv-sanity.com/) —— 学术性的arxiv
 >- [PubMed](https://www.ncbi.nlm.nih.gov/) —— 偏向生物领域
 >- [Open Access Biomedical Image Search Engine](https://openi.nlm.nih.gov/) —— 生物医学图像搜索
 >- [虫部落](http://scholar.chongbuluo.com/) —— 一个数据库集合网站
 >- [学术网站大全](http://kbs.cnki.net/)  —— 全面权威的学术网站大全
+
+##### 专利
+
+>- [Espacenet](https://worldwide.espacenet.com/) —— 欧洲专利局专利数据库
+>- [uspto](http://www.uspto.gov/) —— 美国专利商标局专利数据库
 
 ##### 论文免费下载
 
@@ -42,7 +48,8 @@
 ##### 免费下载英文科研电子书籍
 
 >- [BookSC](http://booksc.org/)
->- [booksee](http://en.booksee.org/)
+>- [Booksee](http://en.booksee.org/)
+>- [Bookzz](http://bookzz.org/)
 >- [EBOOKEE](http://ebookee.org/ )
 >- [Library Genesis](http://gen.lib.rus.ec/)
 >- [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
