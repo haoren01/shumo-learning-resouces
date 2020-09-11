@@ -30,7 +30,7 @@
 >- [arXiv](http://cn.arxiv.org)　—— 物理，数学，计算机
 >- [dblp](http://dblp.uni-trier.de/db/) —— 计算机
 >- [arxiv-sanity](http://www.arxiv-sanity.com/) —— 学术性的arxiv
->- [PubMed](https://www.ncbi.nlm.nih.gov/) —— 偏向生物领域
+>- [NCBI](https://www.ncbi.nlm.nih.gov/) —— 偏向生物领域
 >- [Open Access Biomedical Image Search Engine](https://openi.nlm.nih.gov/) —— 生物医学图像搜索
 >- [虫部落](http://scholar.chongbuluo.com/) —— 一个数据库集合网站
 >- [学术网站大全](http://kbs.cnki.net/)  —— 全面权威的学术网站大全
