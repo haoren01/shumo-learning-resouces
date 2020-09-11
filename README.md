@@ -23,8 +23,8 @@
 
 ##### 学术文献资源库
 
->- [校图书馆（外网)](http://202.206.17.151:3320)
 >- [Google Scholar](https://scholar.google.com/)
+>- [PubMed](https://pubmed.ncbi.nlm.nih.gov/) —— 相关性强
 >- [DOAJ](http://www.doaj.org)　　　
 >- [Oaister](http://www.oclc.org/oaister)　
 >- [arXiv](http://cn.arxiv.org)　—— 物理，数学，计算机
